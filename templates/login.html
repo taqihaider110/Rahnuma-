@@ -1,0 +1,49 @@
+{%extends "base.html"%}
+{% block title %}Home page{% endblock %}
+{% block content %}
+<div class="top_container sub_pages ">
+    <!-- header section strats -->
+    <header class="header_section">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="../static/images/logo.png" alt="">
+                    <span>
+                        RAHNUMA
+                    </span>
+                </a>
+            </nav>
+        </div>
+    </header>
+</div>
+<section class="contact_section layout_padding">
+    <div class="container">
+
+        <h2 class="main-heading">
+            Please Login
+        </h2>
+        <div class="">
+            <div class="contact_section-container">
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+                        <div class="contact-form">
+                            <center>
+                                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0" action="#"
+                                    method="POST">
+
+                                    <input type="text" name="nm" placeholder="Enter Name" required />
+                                    <input type="password" name="pass" placeholder="Enter Password" required />
+                                    <button style="margin-left: 170px ;" class="btn  my-2 my-sm-0 nav_search-btn"
+                                        type="submit">Login</button>
+                                </form>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+{% endblock %}
