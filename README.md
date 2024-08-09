@@ -1,6 +1,6 @@
 ## RAHNUMA
 
-Rahnuma is a Flask web application for navigating through different pages, with user authentication and session management.
+**"REHNUMA"** is a web application developed using HTML, CSS, Python, Flask, and Jinja. It allows users to navigate between pages, log in and out, and manage sessions. Python handles the backend functionality, while HTML, CSS, and Jinja are used for frontend design and templating.
 
 ## Features
 
